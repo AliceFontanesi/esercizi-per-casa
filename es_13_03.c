@@ -39,8 +39,7 @@ int main()
 #include <string.h>
 int main(int argc, char **argv)
 {
-	int i, lungh = 0, j, val = 0;
-    char stringa;
+    int i, lungh = 0, j, val = 0;
     //prendo la lughezza totale della stringa
 	for (i = 1; i < argc; i++)
 	{
@@ -48,7 +47,7 @@ int main(int argc, char **argv)
 	}
     //includo gli spazi e tolgo la pos 1 di argv
 	lungh = lungh + argc - 2;
-	stringa[lungh];
+	char stringa[lungh];
 	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; j < strlen(argv[i]); j++)
