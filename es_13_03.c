@@ -54,10 +54,10 @@ int main(int argc, char **argv)
 		for (j = 0; j < strlen(argv[i]); j++)
 		{
 			stringa[val] = argv[i][j];
-            val++;
+            		val++;
 		}
 		stringa[val] = ' ';
-        val++;
+        	val++;
 	}
 	printf("La stringa è: %s", stringa);
 	return 0;
